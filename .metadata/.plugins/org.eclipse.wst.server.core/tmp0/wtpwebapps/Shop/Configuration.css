@@ -1,0 +1,253 @@
+/*wyzerowanie domyœlnych wartoœci */
+body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, img, ins, kbd, q, samp, small, strong, dl, dt, dd, ol,
+ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+}
+body{line-height: 1;}
+ol,ul{list-style: none;}
+blockquote, q{quotes: none;}
+blockquote:before, blockquote:after, q:before,q:after{content: ''; content: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+hr{display: none;}
+img{display: block; border: 0;}
+a{text-decoration: none; color: #303030;}
+
+body{
+    background: #fff;
+    font: 62.5%/150% Verdana, Arial, sans-serif;
+    color: #303030;
+    
+}
+.container{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+/* wartosci nag³ówka - header*/
+#header{
+    margin: 10px 0 0 0;
+}
+
+#header .container{
+    border: 1px solid #ccbaa9; 
+    height: 230px;
+    background: rgb(151,217,234);
+    position: relative;
+}
+
+#header .flag{
+    float: right;
+    padding: 5px;
+}
+
+#header .strefa_klienta{
+    margin-top: 45px;
+    position: absolute;
+    float: left;
+}
+
+#header .Zalogowany{
+    font-size:40px;
+}
+
+.logowanie{
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;  
+}
+
+.rejestracja {
+    margin: 5px;
+    font-size: 12px;
+}
+
+.rejestracja a{
+    color: #fff;  
+}
+
+.logo img{
+    float: right;
+}
+
+#header .menu{
+    background-color: yellow;
+    position:absolute;
+    margin-top:205px;
+}
+
+#header .menu li{
+    float: left;
+}
+#header .menu li a{
+    padding:5px;
+    width:192px;
+    height: 15px;
+    display: block;
+    font-size:16px;
+    text-align: center;
+    background-color: yellow;
+}
+#header .menu li a:hover{
+    background: orange;
+    text-decoration: underline;
+}
+
+#header .koszyk{
+    margin-left: 930px;
+}
+
+#header .koszyk img{
+    width: 54px;
+    height: 36px;
+}
+
+/* Zawartosc content */
+
+#content .container{
+    height: 450px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+#promocja{
+    list-style: none;
+    margin-left: 20px;
+    float: left;
+}
+
+#promocja ul{
+    margin: 10px 0;
+    padding: 0;
+    width: 750px;
+    list-style: none;
+    
+}
+
+#promocja ul li{
+    float: left;
+    height: 100px;
+}
+
+#promocja .opis{
+    width: 270px;
+    color: #8a3a73;
+}
+
+#promocja .opis .content{
+    margin-top:10px;
+    float: right;
+    width: 190px;
+    font-size: 1.1em;
+}
+
+#promocja .opis .status{
+    margin: 20px 0 7px 0;
+}
+
+#promocja .opis h4{
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+#promocja .opis .photo{
+    float: left;
+    width: 50px;
+    margin: 12px 0 7px 0;
+}
+
+#promocja .ilosc{
+    margin-top: 30px;
+}
+
+#wyszukiwarka{
+    width:200px;
+    margin-right: 10px;
+    margin-top: 100px;
+    float: right;
+    text-align: center;
+}
+
+#content .strona{
+    width: 800px;
+    height: 15px;
+    border-top: 1px dashed #908e8e; 
+    padding: 10px 0;
+    float: left;
+}
+.strona ul{
+    list-style: none;
+    float: right;
+}
+.strona ul li{
+    float: left;
+    padding: 0 10px;
+}
+.strona ul li a{
+    font-size: 1.1em;
+    float: left;
+}
+.strona ul li ol{
+    list-style: none;
+}
+.strona ul li ol li{
+    border-right: 1px solid #908e8e;
+}
+
+/* zawartosc stopki */
+#stopka .container{
+    border-top: 1px solid #b2b2b2;
+    height: 20px;
+    background-color: #fff;
+    font: bold 1em/2.4em Tahoma, Arial, sans-serif; text-transform:  uppercase;
+    text-align: center;
+}
+
+/* dodatkowe stylizacje do podstron */
+
+#o_sklepie{
+    background-color: #fff;
+    border: 1px dashed #908e8e;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#kontakt{
+    background-color: #fff;
+    border: 1px dashed #908e8e;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+table {   
+	border-style:none;
+	width:800px;
+	font-size: 1.3em;
+	margin-left: 100px;
+	
+}
+
+tr:nth-child(even) {background: #FFFFFF}
+tr:nth-child(odd) {background: #FFFFFF}
+
+tr {
+	border-style:none;
+	text-align:left;
+	padding:2px;	
+}

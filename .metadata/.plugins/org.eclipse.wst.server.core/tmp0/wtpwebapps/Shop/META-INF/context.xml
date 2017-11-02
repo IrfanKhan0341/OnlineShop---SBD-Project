@@ -1,0 +1,5 @@
+<Context>
+  <Resource name="jdbc/sklep" auth="Container" type="javax.sql.DataSource" 
+  maxActive="20" maxIdle="5" maxWait="10000" username="root" password="Napoleon1993" 
+  driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/sklep?useSSL=false" /> 
+  </Context>

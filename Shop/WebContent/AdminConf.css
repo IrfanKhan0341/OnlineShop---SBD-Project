@@ -1,0 +1,151 @@
+/*wyzerowanie domyœlnych wartoœci */
+body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, img, ins, kbd, q, samp, small, strong, dl, dt, dd, ol,
+ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+}
+body{line-height: 1;}
+ol,ul{list-style: none;}
+blockquote, q{quotes: none;}
+blockquote:before, blockquote:after, q:before,q:after{content: ''; content: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+hr{display: none;}
+img{display: block; border: 0;}
+a{text-decoration: none; color: #303030;}
+
+body{
+    background: #fff;
+    font: 62.5%/150% Verdana, Arial, sans-serif;
+    color: #303030;
+    
+}
+.container{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+/* wartosci nag³ówka - header*/
+#header{
+    margin: 10px 0 0 0;
+}
+
+#header .container{
+    border: 1px solid #ccbaa9; 
+    height: 230px;
+    background: rgb(151,217,234);
+    position: relative;
+}
+
+
+.rejestracja {
+    margin: 5px;
+    font-size: 1.5em;
+    color: white;
+    float: left;
+}
+
+.logOut{
+	float:right;
+}
+
+.logo img{
+	width:270px;
+	height:169px;
+    float: right;
+}
+
+#header .menu{
+    background-color: yellow;
+    position:absolute;
+    margin-top:200px;
+}
+
+#header .menu li{
+    float: left;
+}
+#header .menu li a{
+    padding:5px;
+    width:192px;
+    height: 15px;
+    display: block;
+    font-size:16px;
+    text-align: center;
+    background-color: yellow;
+}
+#header .menu li a:hover{
+    background: orange;
+    text-decoration: underline;
+}
+
+/* Zawartosc content */
+
+#content .container{
+    height: 450px;
+    background-color: aliceblue;
+}
+
+form {
+	margin-top: 10px;
+}
+
+label {
+	font-size: 16px; 
+	width: 100px; 
+	display: block; 
+	text-align: right;
+	margin-right: 10px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+input {
+	width: 250px;
+	border: 1px solid #666; 
+	border-radius: 5px; 
+	padding: 4px; 
+	font-size: 16px;
+	margin-top: 30px;
+}
+
+.save {
+	font-weight: bold;
+	width: 130px; 
+	padding: 5px 10px; 
+	margin-top: 30px;
+	background: #cccccc;
+}
+
+table {   
+	border-style:none;
+	width:800px;
+	font-size: 1.3em;
+	margin-left: 100px;
+	
+}
+
+tr:nth-child(even) {background: #FFFFFF}
+tr:nth-child(odd) {background: #FFFFFF}
+
+tr {
+	border-style:none;
+	text-align:left;
+	padding:2px;	
+}
+	
+
+/* zawartosc stopki */
+#stopka .container{
+    border-top: 1px solid #b2b2b2;
+    height: 20px;
+    background-color: #fff;
+    font: bold 1em/2.4em Tahoma, Arial, sans-serif; text-transform:  uppercase;
+    text-align: center;
+}
+
+
